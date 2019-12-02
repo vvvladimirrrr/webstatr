@@ -1,0 +1,25 @@
+{
+  "name": "webstatr",
+  "version": "1.0.0",
+  "description": "Проект по курсу webstart",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vvvladimirrrr/webstatr.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vvvladimirrrr/webstatr/issues"
+  },
+  "homepage": "https://github.com/vvvladimirrrr/webstatr#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  },
+  "dependencies": {
+    "browser-sync": "^2.26.7"
+  }
+}
