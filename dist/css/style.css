@@ -597,6 +597,7 @@ header {
 
 .modal {
   position: fixed;
+  visibility: hidden;
   z-index: 9999;
   left: 0;
   top: 0;
@@ -608,6 +609,9 @@ header {
   display: flex;
   justify-content: center;
   align-items: center; }
+  .modal--visible {
+    opacity: 1;
+    visibility: visible; }
   .modal__dialog {
     position: relative;
     width: 36.36rem;

@@ -1,5 +1,6 @@
 .modal
 	position: fixed
+	visibility: hidden
 	z-index: 9999
 	left: 0
 	top: 0
@@ -11,6 +12,9 @@
 	display: flex
 	justify-content: center
 	align-items: center
+	&--visible
+		opacity: 1
+		visibility: visible
 	&__dialog
 		position: relative
 		width: 36.36rem
