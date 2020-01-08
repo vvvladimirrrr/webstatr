@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,8 +8,7 @@
 	<link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
 	<link rel="stylesheet" type="text/css" href="./dist/css/animate.css">
 	<link rel="stylesheet" type="text/css" href="./dist/css/style.css">
-	 <script src="https://api-maps.yandex.ru/2.1/?apikey=dc7b83fc-71a2-4379-a1bb-0ef649d80d03&lang=ru_RU" type="text/javascript">
-    </script>
+	<script src="https://api-maps.yandex.ru/2.1/?apikey=dc7b83fc-71a2-4379-a1bb-0ef649d80d03&lang=ru_RU"></script>
 	<title>Doocument</title>
 </head>
 <body>
@@ -140,9 +139,9 @@
 					    <!-- Additional required wrapper -->
 					    <div class="swiper-wrapper swiper-no-swiping wow flip" data-wow-delay="1s">
 					        <!-- Slides -->
-					        <div class="swiper-slide"><img src="dist/img/projects/projects.jpg"></div>
-					        <div class="swiper-slide"><img src="dist/img/projects/projects.jpg"></div>
-					        <div class="swiper-slide"><img src="dist/img/projects/projects.jpg"></div>
+					        <div class="swiper-slide"><img src="dist/img/projects/projects.jpg" alt="projects"></div>
+					        <div class="swiper-slide"><img src="dist/img/projects/projects.jpg" alt="projects"></div>
+					        <div class="swiper-slide"><img src="dist/img/projects/projects.jpg" alt="projects"></div>
 					    </div>
 					</div>
 				</div>
@@ -151,14 +150,14 @@
 			</div>
 			<!-- /.container -->
 		</section>
-		<!-- /.section section--dark projects -->
+		<!-- /.projects -->
 
 		<section class="section control">
 			<div class="container">
 				<div class="section-title control__section-title section-title--light">
 					<h2 class="section-title__heading">Онлайн контроль</h2>
 					<div class="section-title__image">
-						<img src="dist/img/video.svg">
+						<img src="dist/img/video.svg" alt="video">
 					</div> 
 				</div>
 				<div class="control__video video wow shake" data-wow-delay="0.2s">
@@ -169,18 +168,18 @@
 
 				<form action="#" class="form control__form">
 					<div class="control__input-group">
-						<label for="user-name" class="label form__label control__label">Имя</label>
-						<input type="text" class="input form__input control__input" id="contro-user-name" placeholder="Как вас зовут:">
+						<label for="control-user-name" class="label form__label control__label">Имя</label>
+						<input type="text" name="userName" class="input form__input control__input" id="control-user-name" placeholder="Как вас зовут:">
 					</div>
 					<div class="control__input-group">
-						<label for="user-phone" class="label form__label control__label">Телефон</label>
-						<input type="tel" class="input form__input control__input" id="contro-user-phone" placeholder="Ваш номер телефона:">
+						<label for="control-user-phone" class="label form__label control__label">Телефон</label>
+						<input type="tel" name="userPhone" class="input form__input control__input" id="control-user-phone" placeholder="Ваш номер телефона:">
 					</div>
 					<button class="button button--primary control__button">
 					Отправить</button>
 					<div class="policy control__policy">
-						<input type="checkbox" name="policy-checkbox" class="policy__checkbox" id="policy-checkbox" checked>
-						<label for="policy-checkbox" class="policy__label control__policy--label">я соглашаюсь с обработкой данныхx</label>
+						<input type="checkbox" name="policy-checkbox" class="policy__checkbox" id="control-policy-checkbox" checked>
+						<label for="control-policy-checkbox" class="policy__label control__policy--label">я соглашаюсь с обработкой данныхx</label>
 					</div>
 					<!-- /.policy -->
 				</form>
@@ -195,7 +194,7 @@
 				<div class="section-title types__section-title">
 					<h2 class="section-title__heading">Виды ремонта</h2>
 					<div class="section-title__image">
-						<img src="dist/img/repair.svg">
+						<img src="dist/img/repair.svg" alt="repair">
 					</div>
 				</div>
 				<div class="row">
@@ -281,7 +280,7 @@
 				<div class="section-title design__section-title">
 					<h2 class="section-title__heading">Дизайн проект</h2>
 					<div class="section-title__image">
-						<img src="dist/img/design.svg">
+						<img src="dist/img/design.svg" alt="design">
 					</div>
 				</div>
 				<p class="section-title__description">Дизайн-проект не только помогает сделать ремонт вашей квартиры более современным, но и значительно удешевляет материалы и сокращает время ремонтных работ</p>
@@ -374,20 +373,20 @@
 			<h3 class="footer__title">Остались вопросы?</h3>
 				<form action="#" class="form footer__form">
 					<div class="input-group footer__input-group">
-						<label for="user-name" class="label form__label label--light">Имя</label>
-						<input type="text" class="input form__input footer__input input--light" id="footer-user-name" placeholder="Как вас зовут:">
+						<label for="footer-user-name" class="label form__label label--light">Имя</label>
+						<input type="text" name="userName" class="input form__input footer__input input--light" id="footer-user-name" placeholder="Как вас зовут:">
 					</div>
 					<div class="input-group footer__input-group">
-						<label for="user-phone" class="label form__label label--light">Телефон</label>
-						<input type="tel" class="input form__input footer__input input--light" id="footer-user-phone" placeholder="Ваш номер телефона:">
+						<label for="footer-user-phone" class="label form__label label--light">Телефон</label>
+						<input type="tel" name="userPhone" class="input form__input footer__input input--light" id="footer-user-phone" placeholder="Ваш номер телефона:">
 					</div>
 					<div class="input-group footer__input-group footer__input-group--full-width">
-						<label for="user-qestion" class="label form__label label--light">Вопрос</label>
-						<input type="text" class="input form__input footer__input input--light" id="footer-user-qestion" placeholder="Я хочу спросить">
+						<label for="footer-user-qestion" class="label form__label label--light">Вопрос</label>
+						<input type="text" name="userQestion" class="input form__input footer__input input--light" id="footer-user-qestion" placeholder="Я хочу спросить">
 					</div>
 					<div class="policy footer__policy">
-						<input type="checkbox" name="policy-checkbox" class="policy__checkbox" id="policy-checkbox" checked>
-						<label for="policy-checkbox" class="policy__label policy__label--center">я соглашаюсь с обработкой данныхx</label>
+						<input type="checkbox" name="footer-policy-checkbox" class="policy__checkbox" id="footer-policy-checkbox" checked>
+						<label for="footer-policy-checkbox" class="policy__label policy__label--center">я соглашаюсь с обработкой данныхx</label>
 					</div>
 					<button class="button button--primary footer__button">Отправить</button>
 				<!-- /.policy -->
@@ -397,44 +396,60 @@
 			<div class="section-title section-title__map">
 				<h2 class="section-title__heading section-title__heading--primary section-title__heading--normal">Ростов на дону, Торговый центр Plaza Прямой телефон +7 (999) 768 32 99</h2>
 				<div class="section-title__social">
-					<a href="#"><img src="dist/img/emal-icon.png"></a>
-					<a href="#"><img src="dist/img/inst-icon.png"></a>
+					<a href="#"><img src="dist/img/emal-icon.png" alt="emal"></a>
+					<a href="#"><img src="dist/img/inst-icon.png" alt="inst"></a>
 				</div>
 			</div>
 			<div class="map footer__map" id="map"></div>
 		</div>
 			<!-- /.map -->
 		<div class="footer__menu">
-
+			<div class="container">
+				<div class="menu">
+					<div class="logo menu__logo">Repair Design Project</div>
+					<nav class="nav menu__nav">
+						<a href="#" class="nav__item">Главная</a>
+						<a href="#" class="nav__item">Проекты</a>
+						<a href="#" class="nav__item">Замер</a>
+						<a href="#" class="nav__item">Команда</a>
+						<a href="#" class="nav__item">Отзывы</a>
+						<a href="#" class="nav__item">Контакты</a>
+					</nav>
+					<div class="contacts menu__contacts">
+						<a href="tel:+79997683299" class="phone contacts__phone">+7 (999) 768-32-990</a>
+						<button class="button contacts__button button--primary" data-toggle="modal">Заказать звонок	</button>
+					</div>
+				</div>
+				<!-- /.menu -->
+			</div>
+			<!-- /.container -->
 		</div>
 		<!-- /.footer__menu -->
 	</footer>
-	<!-- /.footer section--dark -->
-
-	
+	<!-- /.footer -->
 
 	<div class="modal">
 		<div class="modal__dialog">
 			<button class="modal__close"></button>
 			<h3 class="modal__title">Оставьте заявку и наш менеджер свяжется с вами</h3>
-			<form action="send.php" metod="POST" class="form modal__form">
+			<form action="send.php" method="post" class="form modal__form">
 				<div class="input-group modal__input-group">
-					<label for="user-name" class="label form__label label--light">Имя</label>
+					<label for="modal-user-name" class="label form__label label--light">Имя</label>
 					<input type="text" name="userName" class="input form__input modal__input input--light" id="modal-user-name" placeholder="Как вас зовут:"></div>
 				<div class="input-group modal__input-group">
-					<label for="user-phone" class="label form__label label--light">Телефон</label>
+					<label for="modal-user-phone" class="label form__label label--light">Телефон</label>
 					<input type="tel" name="userPhone" class="input form__input modal__input input--light" id="modal-user-phone" placeholder="Ваш номер телефона:">
 				</div>
 				<div class="input-group modal__input-group">
-					<label for="user-email" class="label form__label label--light">Email</label>
+					<label for="modal-user-email" class="label form__label label--light">Email</label>
 					<input type="email" name="userEmail" class="input form__input modal__input input--light" id="modal-user-email" placeholder="Ваш email">
 				</div>
 				<div class="policy modal__policy">
-					<input type="checkbox" name="policy-checkbox" class="policy__checkbox" id="policy-checkbox" checked>
-					<label for="policy-checkbox" class="policy__label">я соглашаюсь с обработкой данныхx</label>
+					<input type="checkbox" name="policy-checkbox" class="policy__checkbox" id="modal-policy-checkbox" checked>
+					<label for="modal-policy-checkbox" class="policy__label">я соглашаюсь с обработкой данныхx</label>
 				</div>
-				<button class="button button--primary modal__button">Отправить заявку</button>
 				<!-- /.policy -->
+				<button class="button button--primary modal__button">Отправить заявку</button>
 			</form>
 		</div>
 		<!-- /.modal__dialog -->
